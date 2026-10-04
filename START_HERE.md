@@ -2,6 +2,8 @@
 
 Everything below runs in **Windows PowerShell** on your own PC. You do not need Claude Code for any of it.
 
+Demo videos (download link and how to use them): docs/VIDEOS.md
+
 You need, once per PC:
 - **Python 3.11** (3.10 to 3.12 work). Install from python.org and tick *"Add python.exe to PATH"*.
 - **Git**, from git-scm.com (default options are fine).

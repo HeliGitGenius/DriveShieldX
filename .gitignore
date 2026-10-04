@@ -24,6 +24,8 @@ __pycache__/
 *.py[cod]
 
 # ---- Datasets, videos and evaluation working data (large / third-party) ----
+*.mkv
+videos/
 *.mp4
 *.avi
 *.mov
