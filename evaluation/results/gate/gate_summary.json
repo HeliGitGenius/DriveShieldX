@@ -1,0 +1,28 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-01 12:16:22",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "sources": [
+    "C:/Users/helim/Downloads/triple_riding_video_1.mp4",
+    "C:/Users/helim/Downloads/seat_belt_video_1.mp4",
+    "C:/Users/helim/Downloads/seat_belt_video_2.mp4",
+    "C:/Users/helim/Downloads/seatbelt.mp4",
+    "C:/Users/helim/Downloads/15397236_1920_1080_60fps.mp4"
+  ],
+  "stride": 5,
+  "theta": 0.15,
+  "two_wheeler_crops_evaluated": 1204,
+  "agree_positive": 95,
+  "agree_negative": 918,
+  "disagree": 191,
+  "withheld_rate": 0.6678321678321678,
+  "disagreement_rate_all_crops": 0.15863787375415284,
+  "note": "withheld_rate = disagree / (agree_positive + disagree): share of helmet events the legacy OR rule would issue that the gate routes to officer review instead."
+}

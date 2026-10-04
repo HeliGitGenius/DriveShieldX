@@ -1,0 +1,4 @@
+opencv-python>=4.8
+ultralytics>=8.2
+torch>=2.0
+qrcode[pil]>=8.0

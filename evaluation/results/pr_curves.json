@@ -1,0 +1,60 @@
+{
+  "helmet": {
+    "note": "281 reviewed events; recall within the reviewed set",
+    "average_precision": {
+      "Standalone helmet model": 0.8847,
+      "Combined model": 0.9375,
+      "Both models (min score)": 0.8771
+    },
+    "operating_points": {
+      "OR rule (no gate)": {
+        "recall": 1.0,
+        "precision": 0.79
+      },
+      "Deployed gate": {
+        "recall": 0.4189,
+        "precision": 0.9894
+      }
+    }
+  },
+  "plates": {
+    "note": "291 held-out plates; correct = exact string match",
+    "average_precision": {
+      "fast-plate-ocr + format decoding": 0.2038
+    },
+    "operating_points": {
+      "fast-plate-ocr + format decoding (accept all)": {
+        "recall": 0.3677,
+        "precision": 0.3677
+      }
+    }
+  },
+  "accident": {
+    "note": "23 crashes + 23 normal clips; event level, +10 s tolerance",
+    "average_precision": {
+      "Learned R3D-18 (threshold swept)": 0.3618
+    },
+    "operating_points": {
+      "Track-based rules": {
+        "recall": 0.0435,
+        "precision": 1.0
+      },
+      "Rules, dev-tuned": {
+        "recall": 0.1304,
+        "precision": 0.3333
+      },
+      "Deployed threshold 0.95": {
+        "recall": 0.3043,
+        "precision": 0.7778
+      }
+    }
+  },
+  "fog": {
+    "note": "10 fog + 10 clear clips, 219 frames",
+    "average_precision": {
+      "Frame level": 0.9676,
+      "Clip level (mean score)": 0.943
+    },
+    "operating_points": {}
+  }
+}

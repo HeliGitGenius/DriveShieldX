@@ -1,0 +1,324 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-03 00:06:59",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "clips": 46,
+  "hours": 0.5087314814814815,
+  "TP": 1,
+  "FP": 0,
+  "FN": 22,
+  "precision": 1.0,
+  "recall": 0.043478260869565216,
+  "false_alarms_per_hour": 0.0,
+  "mean_time_to_detect_s": 4.663333333333334,
+  "per_clip": {
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents131_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          6.0,
+          8.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents132_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          7.33,
+          10.67
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents021_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          1.0,
+          3.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents122_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          10.0,
+          12.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents020_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          20.33,
+          24.33
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents001_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          7.0,
+          10.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents012_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          8.33,
+          13.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents127_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          72.0,
+          76.67
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents010_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          7.67,
+          9.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents004_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          4.67,
+          6.3
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents128_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          3.0,
+          6.67
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents009_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          7.0,
+          8.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents125_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          16.33,
+          20.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents011_x264.mp4": {
+      "detections_s": [
+        13.333333333333334
+      ],
+      "events": [
+        [
+          8.67,
+          10.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents016_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          17.67,
+          24.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents019_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          25.0,
+          30.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents133_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          9.0,
+          15.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents123_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          4.33,
+          7.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents124_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          8.33,
+          14.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents017_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          2.0,
+          4.33
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents002_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          8.0,
+          10.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents121_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          11.0,
+          13.0
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\RoadAccidents\\RoadAccidents022_x264.mp4": {
+      "detections_s": [],
+      "events": [
+        [
+          4.0,
+          7.33
+        ]
+      ]
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_892_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_246_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_893_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_881_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_879_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_704_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_217_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_641_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_883_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_656_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_876_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_938_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_710_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_401_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_352_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_196_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_606_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_894_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_924_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_478_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_870_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_901_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    },
+    "C:\\data\\ucf\\videos\\Testing_Normal_Videos_Anomaly\\Normal_Videos_944_x264.mp4": {
+      "detections_s": [],
+      "events": []
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "db": "C:\\Users\\helim\\Downloads\\DriveShieldX\\DriveShieldX\\DriveShieldX\\database\\overspeed.db",
+  "since": null,
+  "speed": {
+    "estimates": 23185,
+    "mean_kmh": 11.800794047875781,
+    "max_kmh": 781.68,
+    "n_gt_60": 404,
+    "frac_gt_60": 0.017425059305585508,
+    "n_gt_120": 133,
+    "frac_gt_120": 0.005736467543670477,
+    "n_gt_200": 29,
+    "frac_gt_200": 0.0012508087125296529,
+    "n_gt_400": 5,
+    "frac_gt_400": 0.00021565667457407807,
+    "source_fps_values": {
+      "12.5": 1459,
+      "25.0": 21726
+    }
+  },
+  "overspeed_severity": {
+    "extreme": 18,
+    "high": 11,
+    "low": 30,
+    "medium": 21
+  },
+  "rule_violations": {
+    "no_helmet": 16,
+    "no_seatbelt": 2,
+    "three_seater": 43
+  },
+  "plates": {
+    "vehicle_records": 1153,
+    "with_plate_string": 550,
+    "ocr_origin(conf>0)": 2,
+    "synthesised_or_manual(conf<=0)": 548
+  },
+  "gate_review_queue": {
+    "pending": 7
+  },
+  "gate_withheld_rate_no_helmet": 0.30434782608695654
+}

@@ -1,0 +1,190 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-04 17:16:42",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "mode": "absolute score, different cameras",
+  "clips_fog": 10,
+  "clips_clear": 10,
+  "frames": 219,
+  "clip_level": {
+    "auc": 0.9500000000000001,
+    "deployed_accuracy": 0.65,
+    "best_threshold": 0.30548571428571425,
+    "best_threshold_accuracy": 0.95
+  },
+  "frame_level": {
+    "auc": 0.9710411784399062,
+    "deployed_accuracy": 0.730593607305936,
+    "best_threshold": 0.3106,
+    "best_threshold_accuracy": 0.9497716894977168
+  },
+  "per_clip": [
+    {
+      "clip": "foggy 1.mp4",
+      "truth": "fog",
+      "frames": 7,
+      "mean_score": 0.30548571428571425,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "foggy 2.mp4",
+      "truth": "fog",
+      "frames": 15,
+      "mean_score": 0.5188266666666668,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "foggy highway.2.mp4",
+      "truth": "fog",
+      "frames": 15,
+      "mean_score": 0.7126266666666666,
+      "majority_level": "moderate_fog",
+      "fog_predicted": true
+    },
+    {
+      "clip": "foggy highway.mp4",
+      "truth": "fog",
+      "frames": 15,
+      "mean_score": 0.5691466666666667,
+      "majority_level": "moderate_fog",
+      "fog_predicted": true
+    },
+    {
+      "clip": "foggy road.1.mp4",
+      "truth": "fog",
+      "frames": 15,
+      "mean_score": 0.4057,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "foggy road.2.mp4",
+      "truth": "fog",
+      "frames": 7,
+      "mean_score": 0.5997428571428571,
+      "majority_level": "moderate_fog",
+      "fog_predicted": true
+    },
+    {
+      "clip": "foggy road.3.mp4",
+      "truth": "fog",
+      "frames": 3,
+      "mean_score": 0.40549999999999997,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "foggy traffic.1.mp4",
+      "truth": "fog",
+      "frames": 7,
+      "mean_score": 0.39721428571428563,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "foggy traffic.2.mp4",
+      "truth": "fog",
+      "frames": 4,
+      "mean_score": 0.403,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "foggy traffic.3.mp4",
+      "truth": "fog",
+      "frames": 15,
+      "mean_score": 0.5195933333333334,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 10.mp4",
+      "truth": "clear",
+      "frames": 15,
+      "mean_score": 0.18240000000000003,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 2.mp4",
+      "truth": "clear",
+      "frames": 15,
+      "mean_score": 0.26152666666666663,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 3.mp4",
+      "truth": "clear",
+      "frames": 15,
+      "mean_score": 0.23645999999999998,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 4.mp4",
+      "truth": "clear",
+      "frames": 7,
+      "mean_score": 0.28868571428571427,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 5.mp4",
+      "truth": "clear",
+      "frames": 15,
+      "mean_score": 0.2926,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 6.mp4",
+      "truth": "clear",
+      "frames": 15,
+      "mean_score": 0.10888,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 7.mp4",
+      "truth": "clear",
+      "frames": 5,
+      "mean_score": 0.46699999999999997,
+      "majority_level": "light_haze",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 8.mp4",
+      "truth": "clear",
+      "frames": 9,
+      "mean_score": 0.0031000000000000003,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video 9.mp4",
+      "truth": "clear",
+      "frames": 15,
+      "mean_score": 0.10766666666666663,
+      "majority_level": "clear",
+      "fog_predicted": false
+    },
+    {
+      "clip": "clear video.mp4",
+      "truth": "clear",
+      "frames": 5,
+      "mean_score": 0.23898000000000003,
+      "majority_level": "clear",
+      "fog_predicted": false
+    }
+  ]
+}

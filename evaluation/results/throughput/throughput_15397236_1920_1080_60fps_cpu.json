@@ -1,0 +1,27 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-01 13:42:15",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "video": "C:/Users/helim/Downloads/15397236_1920_1080_60fps.mp4",
+  "device": "cpu",
+  "npr": false,
+  "frames_timed": 195,
+  "fps_mean": 0.9101152601516135,
+  "ms_per_frame_mean": 1098.7619302564083,
+  "ms_per_frame_p50": 1012.241600001289,
+  "ms_per_frame_p95": 1818.3875000004261,
+  "gate_stats": {
+    "agree_negative": 795,
+    "evaluations": 872,
+    "issued_three_seater": 2,
+    "disagree": 77,
+    "review_events": 6
+  }
+}

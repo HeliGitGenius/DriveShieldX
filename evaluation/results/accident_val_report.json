@@ -1,0 +1,128 @@
+{
+  "best_epoch": 5,
+  "best_val": {
+    "threshold": 0.95,
+    "crashes_found": 10,
+    "crash_videos": 25,
+    "false_alarms": 4,
+    "false_alarms_per_hour": 8.31
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4168,
+      "train_acc": 0.802,
+      "seconds": 186,
+      "val_threshold": 0.75,
+      "val_crashes_found": 10,
+      "val_crash_videos": 25,
+      "val_false_alarms": 15,
+      "val_false_alarms_per_hour": 31.15
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2857,
+      "train_acc": 0.885,
+      "seconds": 189,
+      "val_threshold": 0.85,
+      "val_crashes_found": 6,
+      "val_crash_videos": 25,
+      "val_false_alarms": 5,
+      "val_false_alarms_per_hour": 10.38
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.213,
+      "train_acc": 0.919,
+      "seconds": 188,
+      "val_threshold": 0.95,
+      "val_crashes_found": 9,
+      "val_crash_videos": 25,
+      "val_false_alarms": 8,
+      "val_false_alarms_per_hour": 16.61
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.1878,
+      "train_acc": 0.927,
+      "seconds": 191,
+      "val_threshold": 0.45,
+      "val_crashes_found": 9,
+      "val_crash_videos": 25,
+      "val_false_alarms": 9,
+      "val_false_alarms_per_hour": 18.69
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.1435,
+      "train_acc": 0.942,
+      "seconds": 189,
+      "val_threshold": 0.95,
+      "val_crashes_found": 10,
+      "val_crash_videos": 25,
+      "val_false_alarms": 4,
+      "val_false_alarms_per_hour": 8.31
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.1129,
+      "train_acc": 0.96,
+      "seconds": 192,
+      "val_threshold": 0.75,
+      "val_crashes_found": 8,
+      "val_crash_videos": 25,
+      "val_false_alarms": 7,
+      "val_false_alarms_per_hour": 14.53
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1002,
+      "train_acc": 0.962,
+      "seconds": 189,
+      "val_threshold": 0.65,
+      "val_crashes_found": 9,
+      "val_crash_videos": 25,
+      "val_false_alarms": 7,
+      "val_false_alarms_per_hour": 14.53
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0845,
+      "train_acc": 0.969,
+      "seconds": 192,
+      "val_threshold": 0.5,
+      "val_crashes_found": 8,
+      "val_crash_videos": 25,
+      "val_false_alarms": 10,
+      "val_false_alarms_per_hour": 20.76
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0716,
+      "train_acc": 0.972,
+      "seconds": 188,
+      "val_threshold": 0.7,
+      "val_crashes_found": 9,
+      "val_crash_videos": 25,
+      "val_false_alarms": 11,
+      "val_false_alarms_per_hour": 22.84
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0667,
+      "train_acc": 0.975,
+      "seconds": 191,
+      "val_threshold": 0.75,
+      "val_crashes_found": 8,
+      "val_crash_videos": 25,
+      "val_false_alarms": 9,
+      "val_false_alarms_per_hour": 18.69
+    }
+  ],
+  "train_videos": 182,
+  "val_videos": 45,
+  "train_windows": {
+    "crash": 2706,
+    "normal": 24844
+  }
+}

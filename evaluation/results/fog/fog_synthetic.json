@@ -1,0 +1,57 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-01 12:21:21",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "frames": 100,
+  "by_transmission": {
+    "1.0": {
+      "mean_score": 3e-05,
+      "sd": 5.0251890762960616e-05,
+      "levels": {
+        "clear": 100
+      }
+    },
+    "0.85": {
+      "mean_score": 0.237679,
+      "sd": 0.01916952176363471,
+      "levels": {
+        "clear": 100
+      }
+    },
+    "0.7": {
+      "mean_score": 0.439028,
+      "sd": 0.019616984395356914,
+      "levels": {
+        "light_haze": 100
+      }
+    },
+    "0.5": {
+      "mean_score": 0.688116,
+      "sd": 0.01835564878788658,
+      "levels": {
+        "moderate_fog": 100
+      }
+    },
+    "0.35": {
+      "mean_score": 0.8216759999999997,
+      "sd": 0.027587946130822633,
+      "levels": {
+        "dense_fog": 100
+      }
+    },
+    "0.2": {
+      "mean_score": 0.9415270000000001,
+      "sd": 0.011427424526687163,
+      "levels": {
+        "dense_fog": 100
+      }
+    }
+  }
+}

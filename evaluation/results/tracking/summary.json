@@ -1,0 +1,423 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-02 02:11:05",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "conf": 0.35,
+  "sequences": [
+    "MVI_20012",
+    "MVI_20065",
+    "MVI_39761",
+    "MVI_40152",
+    "MVI_40212",
+    "MVI_40742",
+    "MVI_40775",
+    "MVI_40891",
+    "MVI_40992",
+    "MVI_63563"
+  ],
+  "trackers": {
+    "ByteTrack": {
+      "combined": {
+        "MOTA": 67.539288465005,
+        "IDF1": 75.23948561283986,
+        "HOTA": 60.999009394487814,
+        "DetA": 58.336161155942676,
+        "AssA": 64.38337046234898,
+        "IDSW": 451,
+        "MOTP": 82.98355599524862,
+        "FP": 8504,
+        "FN": 30662,
+        "Frag": 2470,
+        "MT": 364,
+        "ML": 80,
+        "GT_dets": 122046,
+        "assoc_fps": 356.8651133667648
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": 63.585579725100146,
+          "sd": 14.068514688852414
+        },
+        "IDF1": {
+          "mean": 74.10126495326429,
+          "sd": 11.325777381061943
+        },
+        "HOTA": {
+          "mean": 58.71507636300142,
+          "sd": 9.899928747657599
+        },
+        "IDSW": {
+          "mean": 45.1,
+          "sd": 28.466159246063075
+        },
+        "assoc_fps": {
+          "mean": 679.7481235412413,
+          "sd": 516.1168716776245
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": 2.9968738581386787,
+        "n_matched_estimates": 90406,
+        "n_estimates": 98516,
+        "max_est_kmh": 446.12869134587146,
+        "frac_est_gt_120": 0.018392951398757563,
+        "frac_est_gt_200": 0.0015834991270453531,
+        "frac_est_gt_400": 1.0150635429777904e-05
+      }
+    },
+    "Centroid": {
+      "combined": {
+        "MOTA": 68.27097979450372,
+        "IDF1": 68.2442863562146,
+        "HOTA": 58.859246096777305,
+        "DetA": 60.64716534649117,
+        "AssA": 57.671121822112696,
+        "IDSW": 1583,
+        "MOTP": 84.88306934394355,
+        "FP": 8909,
+        "FN": 28232,
+        "Frag": 2590,
+        "MT": 464,
+        "ML": 61,
+        "GT_dets": 122046,
+        "assoc_fps": 4266.157834603147
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": 65.46024766302853,
+          "sd": 11.920676618182949
+        },
+        "IDF1": {
+          "mean": 67.45185980347324,
+          "sd": 10.718261141999747
+        },
+        "HOTA": {
+          "mean": 57.149652884273316,
+          "sd": 8.948688849205107
+        },
+        "IDSW": {
+          "mean": 158.3,
+          "sd": 99.0028619114956
+        },
+        "assoc_fps": {
+          "mean": 7099.446869543399,
+          "sd": 5459.913703738779
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": 4.008545448622335,
+        "n_matched_estimates": 92621,
+        "n_estimates": 100807,
+        "max_est_kmh": 435.93496628587275,
+        "frac_est_gt_120": 0.02203220014483121,
+        "frac_est_gt_200": 0.0020732687214181553,
+        "frac_est_gt_400": 9.919946035493568e-06
+      }
+    },
+    "DeepSORT": {
+      "combined": {
+        "MOTA": 68.69950674335907,
+        "IDF1": 74.33469306265796,
+        "HOTA": 61.47464291577002,
+        "DetA": 60.13909169831382,
+        "AssA": 63.31887949594177,
+        "IDSW": 718,
+        "MOTP": 85.05124849262877,
+        "FP": 6889,
+        "FN": 30594,
+        "Frag": 2137,
+        "MT": 398,
+        "ML": 87,
+        "GT_dets": 122046,
+        "assoc_fps": 1.0087607512145564
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": 65.91135442268065,
+          "sd": 12.133037957178649
+        },
+        "IDF1": {
+          "mean": 74.12062045406938,
+          "sd": 8.417666438977662
+        },
+        "HOTA": {
+          "mean": 60.24568134127968,
+          "sd": 8.112996278068389
+        },
+        "IDSW": {
+          "mean": 71.8,
+          "sd": 35.620842837367626
+        },
+        "assoc_fps": {
+          "mean": 2.4904986306925627,
+          "sd": 3.2250567852846013
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": 3.933110969611766,
+        "n_matched_estimates": 90421,
+        "n_estimates": 97007,
+        "max_est_kmh": 555.0367163865293,
+        "frac_est_gt_120": 0.019338810601296812,
+        "frac_est_gt_200": 0.0026183677466574576,
+        "frac_est_gt_400": 4.123413774263713e-05
+      }
+    },
+    "NoTracker(per-frame)": {
+      "combined": {
+        "MOTA": -6.671255100535864,
+        "IDF1": 0.6798090484008026,
+        "HOTA": 6.008707291664267,
+        "DetA": 60.68883713865646,
+        "AssA": 0.6167991339495095,
+        "IDSW": 93053,
+        "MOTP": 84.94518691608585,
+        "FP": 8906,
+        "FN": 28229,
+        "Frag": 2596,
+        "MT": 463,
+        "ML": 61,
+        "GT_dets": 122046,
+        "assoc_fps": 24626.925366715506
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": -10.242500594426854,
+          "sd": 9.123889263290948
+        },
+        "IDF1": {
+          "mean": 0.9214165390265776,
+          "sd": 0.8144818032772433
+        },
+        "HOTA": {
+          "mean": 6.475416139753994,
+          "sd": 2.854148047023178
+        },
+        "IDSW": {
+          "mean": 9305.3,
+          "sd": 6640.265959365717
+        },
+        "assoc_fps": {
+          "mean": 50042.524326647246,
+          "sd": 43469.205503444784
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": null,
+        "n_matched_estimates": 0,
+        "n_estimates": 0,
+        "max_est_kmh": null,
+        "frac_est_gt_120": null,
+        "frac_est_gt_200": null,
+        "frac_est_gt_400": null
+      }
+    }
+  },
+  "significance": [
+    {
+      "test": "paired t-test",
+      "p": 0.0014218619554832355,
+      "shapiro_p": 0.10395952323467444,
+      "n": 10,
+      "mean_diff": 6.649405149791042,
+      "metric": "IDF1",
+      "A": "ByteTrack",
+      "B": "Centroid",
+      "p_holm": 0.002843723910966471
+    },
+    {
+      "test": "paired t-test",
+      "p": 0.9896155061632472,
+      "shapiro_p": 0.055474121169332195,
+      "n": 10,
+      "mean_diff": -0.019355500805072978,
+      "metric": "IDF1",
+      "A": "ByteTrack",
+      "B": "DeepSORT",
+      "p_holm": 0.9896155061632472
+    },
+    {
+      "test": "paired t-test",
+      "p": 7.969461750106107e-09,
+      "shapiro_p": 0.13665426975338352,
+      "n": 10,
+      "mean_diff": 73.17984841423771,
+      "metric": "IDF1",
+      "A": "ByteTrack",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 3.9847308750530535e-08
+    },
+    {
+      "test": "paired t-test",
+      "p": 0.00020952882379211358,
+      "shapiro_p": 0.7060392678636317,
+      "n": 10,
+      "mean_diff": -6.6687606505961154,
+      "metric": "IDF1",
+      "A": "Centroid",
+      "B": "DeepSORT",
+      "p_holm": 0.0006285864713763407
+    },
+    {
+      "test": "paired t-test",
+      "p": 1.0594728599187349e-08,
+      "shapiro_p": 0.771303120636387,
+      "n": 10,
+      "mean_diff": 66.53044326444667,
+      "metric": "IDF1",
+      "A": "Centroid",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 4.2378914396749396e-08
+    },
+    {
+      "test": "paired t-test",
+      "p": 5.514533909800383e-10,
+      "shapiro_p": 0.973154984302881,
+      "n": 10,
+      "mean_diff": 73.1992039150428,
+      "metric": "IDF1",
+      "A": "DeepSORT",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 3.3087203458802297e-09
+    },
+    {
+      "test": "Wilcoxon signed-rank",
+      "p": 0.625,
+      "shapiro_p": 0.018577950759179042,
+      "n": 10,
+      "mean_diff": -1.8746679379283706,
+      "metric": "MOTA",
+      "A": "ByteTrack",
+      "B": "Centroid",
+      "p_holm": 0.625
+    },
+    {
+      "test": "Wilcoxon signed-rank",
+      "p": 0.193359375,
+      "shapiro_p": 0.003755151233470468,
+      "n": 10,
+      "mean_diff": -2.3257746975804907,
+      "metric": "MOTA",
+      "A": "ByteTrack",
+      "B": "DeepSORT",
+      "p_holm": 0.580078125
+    },
+    {
+      "test": "Wilcoxon signed-rank",
+      "p": 0.001953125,
+      "shapiro_p": 0.0313591655993027,
+      "n": 10,
+      "mean_diff": 73.82808031952702,
+      "metric": "MOTA",
+      "A": "ByteTrack",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 0.0078125
+    },
+    {
+      "test": "paired t-test",
+      "p": 0.27109112871918306,
+      "shapiro_p": 0.7525275656589796,
+      "n": 10,
+      "mean_diff": -0.4511067596521201,
+      "metric": "MOTA",
+      "A": "Centroid",
+      "B": "DeepSORT",
+      "p_holm": 0.580078125
+    },
+    {
+      "test": "paired t-test",
+      "p": 1.4643682171694348e-09,
+      "shapiro_p": 0.19679341845738935,
+      "n": 10,
+      "mean_diff": 75.7027482574554,
+      "metric": "MOTA",
+      "A": "Centroid",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 8.78620930301661e-09
+    },
+    {
+      "test": "paired t-test",
+      "p": 2.011089964978468e-09,
+      "shapiro_p": 0.14310295600678558,
+      "n": 10,
+      "mean_diff": 76.1538550171075,
+      "metric": "MOTA",
+      "A": "DeepSORT",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 1.005544982489234e-08
+    },
+    {
+      "test": "paired t-test",
+      "p": 0.19265335531156294,
+      "shapiro_p": 0.4303247632463204,
+      "n": 10,
+      "mean_diff": 1.5654234787281083,
+      "metric": "HOTA",
+      "A": "ByteTrack",
+      "B": "Centroid",
+      "p_holm": 0.3853067106231259
+    },
+    {
+      "test": "Wilcoxon signed-rank",
+      "p": 0.232421875,
+      "shapiro_p": 0.029943696426751758,
+      "n": 10,
+      "mean_diff": -1.5306049782782565,
+      "metric": "HOTA",
+      "A": "ByteTrack",
+      "B": "DeepSORT",
+      "p_holm": 0.3853067106231259
+    },
+    {
+      "test": "paired t-test",
+      "p": 9.752297656630933e-08,
+      "shapiro_p": 0.9357735748718128,
+      "n": 10,
+      "mean_diff": 52.23966022324743,
+      "metric": "HOTA",
+      "A": "ByteTrack",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 3.900919062652373e-07
+    },
+    {
+      "test": "paired t-test",
+      "p": 0.0003170845738119971,
+      "shapiro_p": 0.2530832579183797,
+      "n": 10,
+      "mean_diff": -3.0960284570063648,
+      "metric": "HOTA",
+      "A": "Centroid",
+      "B": "DeepSORT",
+      "p_holm": 0.0009512537214359912
+    },
+    {
+      "test": "paired t-test",
+      "p": 3.786110882401421e-08,
+      "shapiro_p": 0.8067971013231106,
+      "n": 10,
+      "mean_diff": 50.67423674451932,
+      "metric": "HOTA",
+      "A": "Centroid",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 1.8930554412007105e-07
+    },
+    {
+      "test": "paired t-test",
+      "p": 1.0134309389228445e-08,
+      "shapiro_p": 0.7297985595864761,
+      "n": 10,
+      "mean_diff": 53.77026520152568,
+      "metric": "HOTA",
+      "A": "DeepSORT",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 6.080585633537067e-08
+    }
+  ]
+}

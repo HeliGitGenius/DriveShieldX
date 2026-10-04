@@ -1,0 +1,274 @@
+[
+  {
+    "file": "models\\helmet_yolov8.pt",
+    "date": "2026-08-17T18:13:17.860661+00:00",
+    "ultralytics_version": "8.4.121",
+    "base_model": "yolov8s.pt",
+    "data": "/kaggle/working/merged_helmet/data.yaml",
+    "classes": {
+      "0": "helmet",
+      "1": "no_helmet"
+    },
+    "epochs": 100,
+    "batch": 16,
+    "imgsz": 640,
+    "optimizer": "auto",
+    "lr0": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "seed": 42,
+    "patience": 25,
+    "cos_lr": true,
+    "train_metrics": {
+      "metrics/precision(B)": 0.85222,
+      "metrics/recall(B)": 0.81213,
+      "metrics/mAP50(B)": 0.8515,
+      "metrics/mAP50-95(B)": 0.37361,
+      "val/box_loss": 1.92363,
+      "val/cls_loss": 1.142,
+      "val/dfl_loss": 1.5879,
+      "fitness": 0.37361
+    },
+    "non_default_args": {
+      "patience": {
+        "used": 25,
+        "default": 100
+      },
+      "seed": {
+        "used": 42,
+        "default": 0
+      },
+      "cos_lr": {
+        "used": true,
+        "default": false
+      },
+      "warmup_bias_lr": {
+        "used": 0.0,
+        "default": 0.1
+      },
+      "cls": {
+        "used": 0.7,
+        "default": 0.5
+      },
+      "hsv_s": {
+        "used": 0.5,
+        "default": 0.7
+      },
+      "degrees": {
+        "used": 8,
+        "default": 0.0
+      },
+      "shear": {
+        "used": 4,
+        "default": 0.0
+      },
+      "perspective": {
+        "used": 0.0004,
+        "default": 0.0
+      },
+      "mixup": {
+        "used": 0.1,
+        "default": 0.0
+      }
+    }
+  },
+  {
+    "file": "models\\seatbelt_yolov8.pt",
+    "date": "2026-08-18T08:23:58.947701+00:00",
+    "ultralytics_version": "8.4.121",
+    "base_model": "yolov8s.pt",
+    "data": "/kaggle/working/merged_seatbelt/data.yaml",
+    "classes": {
+      "0": "seatbelt",
+      "1": "no_seatbelt"
+    },
+    "epochs": 100,
+    "batch": 16,
+    "imgsz": 640,
+    "optimizer": "auto",
+    "lr0": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "seed": 42,
+    "patience": 25,
+    "cos_lr": true,
+    "train_metrics": {
+      "metrics/precision(B)": 0.98056,
+      "metrics/recall(B)": 0.97117,
+      "metrics/mAP50(B)": 0.98374,
+      "metrics/mAP50-95(B)": 0.64877,
+      "val/box_loss": 1.16223,
+      "val/cls_loss": 0.58029,
+      "val/dfl_loss": 1.55477,
+      "fitness": 0.64877
+    },
+    "non_default_args": {
+      "patience": {
+        "used": 25,
+        "default": 100
+      },
+      "seed": {
+        "used": 42,
+        "default": 0
+      },
+      "cos_lr": {
+        "used": true,
+        "default": false
+      },
+      "warmup_bias_lr": {
+        "used": 0.0,
+        "default": 0.1
+      },
+      "cls": {
+        "used": 0.7,
+        "default": 0.5
+      },
+      "hsv_s": {
+        "used": 0.6,
+        "default": 0.7
+      },
+      "hsv_v": {
+        "used": 0.5,
+        "default": 0.4
+      },
+      "degrees": {
+        "used": 5,
+        "default": 0.0
+      },
+      "scale": {
+        "used": 0.4,
+        "default": 0.5
+      },
+      "shear": {
+        "used": 3,
+        "default": 0.0
+      },
+      "perspective": {
+        "used": 0.0003,
+        "default": 0.0
+      }
+    }
+  },
+  {
+    "file": "models\\twowheeler_best.pt",
+    "date": "2026-06-02T16:52:44.389517",
+    "ultralytics_version": "8.4.60",
+    "base_model": "yolov8n.pt",
+    "data": "/kaggle/working/tw_merged/data.yaml",
+    "classes": {
+      "0": "with_helmet",
+      "1": "without_helmet",
+      "2": "triple_riding"
+    },
+    "epochs": 100,
+    "batch": 32,
+    "imgsz": 640,
+    "optimizer": "auto",
+    "lr0": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "seed": 0,
+    "patience": 25,
+    "cos_lr": false,
+    "train_metrics": {
+      "metrics/precision(B)": 0.83706,
+      "metrics/recall(B)": 0.82242,
+      "metrics/mAP50(B)": 0.86756,
+      "metrics/mAP50-95(B)": 0.5612,
+      "val/box_loss": 1.49476,
+      "val/cls_loss": 0.81362,
+      "val/dfl_loss": 1.32748,
+      "fitness": 0.5612
+    },
+    "non_default_args": {
+      "patience": {
+        "used": 25,
+        "default": 100
+      },
+      "batch": {
+        "used": 32,
+        "default": 16
+      },
+      "close_mosaic": {
+        "used": 12,
+        "default": 10
+      },
+      "warmup_bias_lr": {
+        "used": 0.0,
+        "default": 0.1
+      },
+      "degrees": {
+        "used": 8.0,
+        "default": 0.0
+      },
+      "shear": {
+        "used": 4.0,
+        "default": 0.0
+      },
+      "perspective": {
+        "used": 0.0004,
+        "default": 0.0
+      }
+    }
+  },
+  {
+    "file": "models\\plate_best_v2.pt",
+    "date": "2026-06-02T12:09:47.027301",
+    "ultralytics_version": "8.4.60",
+    "base_model": "yolov8n.pt",
+    "data": "/kaggle/working/merged/data.yaml",
+    "classes": {
+      "0": "License_Plate"
+    },
+    "epochs": 80,
+    "batch": 32,
+    "imgsz": 640,
+    "optimizer": "auto",
+    "lr0": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "seed": 0,
+    "patience": 20,
+    "cos_lr": false,
+    "train_metrics": {
+      "metrics/precision(B)": 0.983,
+      "metrics/recall(B)": 0.93624,
+      "metrics/mAP50(B)": 0.96609,
+      "metrics/mAP50-95(B)": 0.67202,
+      "val/box_loss": 1.09986,
+      "val/cls_loss": 0.39217,
+      "val/dfl_loss": 1.04706,
+      "fitness": 0.67202
+    },
+    "non_default_args": {
+      "epochs": {
+        "used": 80,
+        "default": 100
+      },
+      "patience": {
+        "used": 20,
+        "default": 100
+      },
+      "batch": {
+        "used": 32,
+        "default": 16
+      },
+      "warmup_bias_lr": {
+        "used": 0.0,
+        "default": 0.1
+      },
+      "degrees": {
+        "used": 10.0,
+        "default": 0.0
+      },
+      "shear": {
+        "used": 5.0,
+        "default": 0.0
+      },
+      "perspective": {
+        "used": 0.0005,
+        "default": 0.0
+      }
+    }
+  }
+]

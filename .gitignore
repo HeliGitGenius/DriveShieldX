@@ -1,0 +1,43 @@
+# ---- Secrets: NEVER commit ----
+.env
+.env.*
+!.env.example
+
+# ---- Personal data (owner names, phones, plates) ----
+database/*.db
+database/*.db-*
+database/*.backup*
+*.backup-*
+database/backups/
+logs/
+*.log
+alerts/
+outbox/
+reports/*.pdf
+snapshots/
+dashboard.pid
+
+# ---- Python / environments ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ---- Datasets, videos and evaluation working data (large / third-party) ----
+*.mp4
+*.avi
+*.mov
+datasets/
+data/
+evaluation/anpr_bench*/
+evaluation/results/gate/crops/
+evaluation/results/violations/crops/
+evaluation/cache/
+evaluation/detrac/
+runs/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

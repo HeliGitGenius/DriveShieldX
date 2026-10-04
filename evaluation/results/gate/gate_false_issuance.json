@@ -1,0 +1,17 @@
+{
+  "judged_events": 281,
+  "unclear_excluded": 5,
+  "with_gate": {
+    "issued": 94,
+    "unsupported": 1,
+    "false_issuance_rate": 0.010638297872340425
+  },
+  "without_gate_OR_rule": {
+    "issued": 281,
+    "unsupported": 59,
+    "false_issuance_rate": 0.2099644128113879
+  },
+  "withheld_events": 187,
+  "withheld_that_were_real_violations": 129,
+  "definition": "false-issuance rate = automatically issued events a reviewer judged unsupported / automatically issued events (paper Sec. 5.4)"
+}

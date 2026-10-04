@@ -1,0 +1,29 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-01 12:26:18",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "video": "C:/Users/helim/Downloads/triple_riding_video_1.mp4",
+  "device": "cpu",
+  "npr": false,
+  "frames_timed": 195,
+  "fps_mean": 1.007222969466303,
+  "ms_per_frame_mean": 992.828827692313,
+  "ms_per_frame_p50": 973.4434000001784,
+  "ms_per_frame_p95": 1573.703109999587,
+  "gate_stats": {
+    "disagree": 141,
+    "evaluations": 248,
+    "review_events": 3,
+    "agree_positive": 94,
+    "issued_no_helmet": 9,
+    "issued_three_seater": 4,
+    "agree_negative": 13
+  }
+}

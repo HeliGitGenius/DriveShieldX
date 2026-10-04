@@ -1,0 +1,275 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-01 12:09:10",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "conf": 0.35,
+  "sequences": [
+    "MVI_20012",
+    "MVI_20065",
+    "MVI_39761",
+    "MVI_40152",
+    "MVI_40212",
+    "MVI_40742",
+    "MVI_40775",
+    "MVI_40891",
+    "MVI_40992",
+    "MVI_63563"
+  ],
+  "trackers": {
+    "ByteTrack": {
+      "combined": {
+        "MOTA": 67.539288465005,
+        "IDF1": 75.23948561283986,
+        "HOTA": 60.999009394487814,
+        "DetA": 58.336161155942676,
+        "AssA": 64.38337046234898,
+        "IDSW": 451,
+        "MOTP": 82.98355599524862,
+        "FP": 8504,
+        "FN": 30662,
+        "Frag": 2470,
+        "MT": 364,
+        "ML": 80,
+        "GT_dets": 122046,
+        "assoc_fps": 694.2681401436308
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": 63.585579725100146,
+          "sd": 14.068514688852414
+        },
+        "IDF1": {
+          "mean": 74.10126495326429,
+          "sd": 11.325777381061943
+        },
+        "HOTA": {
+          "mean": 58.71507636300142,
+          "sd": 9.899928747657599
+        },
+        "IDSW": {
+          "mean": 45.1,
+          "sd": 28.466159246063075
+        },
+        "assoc_fps": {
+          "mean": 863.9630854906725,
+          "sd": 481.5033255092648
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": 2.9968738581386787,
+        "n_matched_estimates": 90406,
+        "n_estimates": 98516,
+        "max_est_kmh": 446.12869134587146,
+        "frac_est_gt_120": 0.018392951398757563,
+        "frac_est_gt_200": 0.0015834991270453531,
+        "frac_est_gt_400": 1.0150635429777904e-05
+      }
+    },
+    "Centroid": {
+      "combined": {
+        "MOTA": 68.27097979450372,
+        "IDF1": 68.2442863562146,
+        "HOTA": 58.859246096777305,
+        "DetA": 60.64716534649117,
+        "AssA": 57.671121822112696,
+        "IDSW": 1583,
+        "MOTP": 84.88306934394355,
+        "FP": 8909,
+        "FN": 28232,
+        "Frag": 2590,
+        "MT": 464,
+        "ML": 61,
+        "GT_dets": 122046,
+        "assoc_fps": 7345.091403647187
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": 65.46024766302853,
+          "sd": 11.920676618182949
+        },
+        "IDF1": {
+          "mean": 67.45185980347324,
+          "sd": 10.718261141999747
+        },
+        "HOTA": {
+          "mean": 57.149652884273316,
+          "sd": 8.948688849205107
+        },
+        "IDSW": {
+          "mean": 158.3,
+          "sd": 99.0028619114956
+        },
+        "assoc_fps": {
+          "mean": 10732.314364413915,
+          "sd": 6461.291432125802
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": 4.008545448622335,
+        "n_matched_estimates": 92621,
+        "n_estimates": 100807,
+        "max_est_kmh": 435.93496628587275,
+        "frac_est_gt_120": 0.02203220014483121,
+        "frac_est_gt_200": 0.0020732687214181553,
+        "frac_est_gt_400": 9.919946035493568e-06
+      }
+    },
+    "NoTracker(per-frame)": {
+      "combined": {
+        "MOTA": -6.671255100535864,
+        "IDF1": 0.6798090484008026,
+        "HOTA": 6.008707291664267,
+        "DetA": 60.68883713865646,
+        "AssA": 0.6167991339495095,
+        "IDSW": 93053,
+        "MOTP": 84.94518691608585,
+        "FP": 8906,
+        "FN": 28229,
+        "Frag": 2596,
+        "MT": 463,
+        "ML": 61,
+        "GT_dets": 122046,
+        "assoc_fps": 44798.33564056173
+      },
+      "per_sequence_mean_sd": {
+        "MOTA": {
+          "mean": -10.242500594426854,
+          "sd": 9.123889263290948
+        },
+        "IDF1": {
+          "mean": 0.9214165390265776,
+          "sd": 0.8144818032772433
+        },
+        "HOTA": {
+          "mean": 6.475416139753994,
+          "sd": 2.854148047023178
+        },
+        "IDSW": {
+          "mean": 9305.3,
+          "sd": 6640.265959365717
+        },
+        "assoc_fps": {
+          "mean": 70595.18530297877,
+          "sd": 50390.888851995456
+        }
+      },
+      "speed": {
+        "MAE_vs_gt_traj_kmh": null,
+        "n_matched_estimates": 0,
+        "n_estimates": 0,
+        "max_est_kmh": null,
+        "frac_est_gt_120": null,
+        "frac_est_gt_200": null,
+        "frac_est_gt_400": null
+      }
+    }
+  },
+  "significance": [
+    {
+      "test": "paired t-test",
+      "p": 0.0014218619554832355,
+      "shapiro_p": 0.10395952323467444,
+      "n": 10,
+      "mean_diff": 6.649405149791042,
+      "metric": "IDF1",
+      "A": "ByteTrack",
+      "B": "Centroid",
+      "p_holm": 0.0014218619554832355
+    },
+    {
+      "test": "paired t-test",
+      "p": 7.969461750106107e-09,
+      "shapiro_p": 0.13665426975338352,
+      "n": 10,
+      "mean_diff": 73.17984841423771,
+      "metric": "IDF1",
+      "A": "ByteTrack",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 2.3908385250318318e-08
+    },
+    {
+      "test": "paired t-test",
+      "p": 1.0594728599187349e-08,
+      "shapiro_p": 0.771303120636387,
+      "n": 10,
+      "mean_diff": 66.53044326444667,
+      "metric": "IDF1",
+      "A": "Centroid",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 2.3908385250318318e-08
+    },
+    {
+      "test": "Wilcoxon signed-rank",
+      "p": 0.625,
+      "shapiro_p": 0.018577950759179042,
+      "n": 10,
+      "mean_diff": -1.8746679379283706,
+      "metric": "MOTA",
+      "A": "ByteTrack",
+      "B": "Centroid",
+      "p_holm": 0.625
+    },
+    {
+      "test": "Wilcoxon signed-rank",
+      "p": 0.001953125,
+      "shapiro_p": 0.0313591655993027,
+      "n": 10,
+      "mean_diff": 73.82808031952702,
+      "metric": "MOTA",
+      "A": "ByteTrack",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 0.00390625
+    },
+    {
+      "test": "paired t-test",
+      "p": 1.4643682171694348e-09,
+      "shapiro_p": 0.19679341845738935,
+      "n": 10,
+      "mean_diff": 75.7027482574554,
+      "metric": "MOTA",
+      "A": "Centroid",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 4.393104651508305e-09
+    },
+    {
+      "test": "paired t-test",
+      "p": 0.19265335531156294,
+      "shapiro_p": 0.4303247632463204,
+      "n": 10,
+      "mean_diff": 1.5654234787281083,
+      "metric": "HOTA",
+      "A": "ByteTrack",
+      "B": "Centroid",
+      "p_holm": 0.19265335531156294
+    },
+    {
+      "test": "paired t-test",
+      "p": 9.752297656630933e-08,
+      "shapiro_p": 0.9357735748718128,
+      "n": 10,
+      "mean_diff": 52.23966022324743,
+      "metric": "HOTA",
+      "A": "ByteTrack",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 1.9504595313261865e-07
+    },
+    {
+      "test": "paired t-test",
+      "p": 3.786110882401421e-08,
+      "shapiro_p": 0.8067971013231106,
+      "n": 10,
+      "mean_diff": 50.67423674451932,
+      "metric": "HOTA",
+      "A": "Centroid",
+      "B": "NoTracker(per-frame)",
+      "p_holm": 1.1358332647204263e-07
+    }
+  ]
+}

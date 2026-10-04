@@ -1,0 +1,21 @@
+{
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+    "cpu_count": 12,
+    "timestamp": "2026-10-01 13:35:06",
+    "torch": "2.13.0+cpu",
+    "cuda": false,
+    "ultralytics": "8.4.121"
+  },
+  "video": "C:/Users/helim/Downloads/seatbelt.mp4",
+  "device": "cpu",
+  "npr": false,
+  "frames_timed": 195,
+  "fps_mean": 1.659656368948868,
+  "ms_per_frame_mean": 602.5343671794801,
+  "ms_per_frame_p50": 598.5739000007015,
+  "ms_per_frame_p95": 990.4218400008175,
+  "gate_stats": {}
+}

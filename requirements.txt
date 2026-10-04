@@ -1,0 +1,2 @@
+# Everything the app needs. Evaluation extras: pip install -r evaluation/requirements-eval.txt
+-r backend/requirements.txt
