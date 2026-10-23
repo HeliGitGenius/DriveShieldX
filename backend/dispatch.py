@@ -45,11 +45,11 @@ def nearest(lat: float, lon: float, kind: str, k: int = 1, max_km: float = 25.0,
     return [f for f in ranked if f["distance_km"] <= max_km][:k]
 
 
-def fetch_osm_facilities(lat: float, lon: float, radius_m: int = 5000, timeout: float = 30.0) -> Dict[str, int]:
+def fetch_osm_facilities(lat: float, lon: float, radius_m: int = 5000, timeout: float = 90.0) -> Dict[str, int]:
     """Pull hospitals and police stations around a camera from OpenStreetMap."""
     import requests
 
-    q = f"""[out:json][timeout:25];
+    q = f"""[out:json][timeout:80];
 (
   node["amenity"="hospital"](around:{radius_m},{lat},{lon});
   way["amenity"="hospital"](around:{radius_m},{lat},{lon});
