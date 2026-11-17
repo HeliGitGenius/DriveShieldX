@@ -1,5 +1,9 @@
 # DriveShieldX — Traffic Violation Detection & Enforcement
 
+**At a glance:** YOLOv8 + tracking + EasyOCR ANPR turn traffic video into e-challans on a role-based Streamlit dashboard.
+**Razorpay payments:** payment links, HMAC-verified redirects and webhooks, reconciliation, idempotent settlement, refunds.
+**Results:** plate localisation mAP@50 0.968, helmet detection mAP@50 0.904; paper accepted at ICRMRI-2026 (first author).
+
 *A final-year project extension of OverSpeedX phase-2.*
 
 DriveShieldX **adds** three new AI violation detectors on top of the existing
